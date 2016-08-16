@@ -3,31 +3,9 @@
 
 	<modules>
 		<GaugeInteractive_FBPixel>
-			<version>0.1.0</version>
+			<version>0.2.0</version>
 		</GaugeInteractive_FBPixel>
 	</modules>
-
-	<adminhtml>
-		<acl>
-			<resources>
-				<admin>
-					<children>
-						<system>
-							<children>
-								<config>
-									<children>
-										<fbpixel_options>
-											<title>Store Fbpixel Module Section</title>
-										</fbpixel_options>
-									</children>
-								</config>
-							</children>
-						</system>
-					</children>
-				</admin>
-			</resources>
-		</acl>
-	</adminhtml>
 
 	<global>
 		<helpers>
@@ -44,6 +22,15 @@
 	</global>
 
 	<frontend>
+		<routers>
+        <fbpixel>
+            <use>standard</use>
+            <args>
+                <module>GaugeInteractive_FBPixel</module>
+                <frontName>fbpixel</frontName>
+            </args>
+        </fbpixel>
+    </routers>
 		<layout>
 			<updates>
 				<fbpixel>
