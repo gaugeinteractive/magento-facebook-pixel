@@ -8,7 +8,7 @@
      </tabs>
      <sections>
           <fbpixel_options translate="label" module="fbpixel">
-               <label>Facebook Pixel Settings</label>
+               <label>Facebook Pixel</label>
                <tab>gaugeinteractive_all</tab>
                <frontend_type>text</frontend_type>
                <sort_order>1000</sort_order>
