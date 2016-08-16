@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <config>
      <tabs>
-          <fbpixeltab translate="label" module="fbpixel">
-               <label>Facebook Pixel</label>
-               <sort_order>99999999999</sort_order>
-          </fbpixeltab>
+        <gaugeinteractive_all translate="label">
+            <label>Gauge Interactive</label>
+            <sort_order>9999</sort_order>
+        </gaugeinteractive_all>
      </tabs>
      <sections>
           <fbpixel_options translate="label" module="fbpixel">
-               <label>Facebook Pixel Settings</label>
-               <tab>fbpixeltab</tab>
+               <label>Facebook Pixel</label>
+               <tab>gaugeinteractive_all</tab>
                <frontend_type>text</frontend_type>
                <sort_order>1000</sort_order>
                <show_in_default>1</show_in_default>
